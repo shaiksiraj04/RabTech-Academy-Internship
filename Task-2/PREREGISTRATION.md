@@ -246,3 +246,35 @@ Synthetic test data will be included for pipeline validation.
 **Preregistration Status: Draft — Day 2**
 
 The preregistration will be reviewed and finalized before the real outcome data are analyzed.
+
+---
+
+## Analysis Plan Lock
+
+This analysis plan was finalized before inspection of outcome patterns in the real research dataset.
+
+The following components are locked:
+
+- Research question
+- Primary hypothesis
+- Population definition
+- Exposure/intervention definition
+- Comparator definition
+- Outcome definition
+- Observation window
+- Inclusion and exclusion criteria
+- Data transformations
+- Primary statistical test
+- Primary effect size
+- Missing-data handling
+- Robustness checks
+- Multiple-testing strategy
+- Reproducibility requirements
+
+The synthetic dataset was used only to verify that the analysis pipeline executes correctly.
+
+The synthetic analysis results were not used to modify the research hypothesis or statistical analysis plan.
+
+Any deviation from this preregistered analysis plan after real-data inspection must be explicitly documented and identified as a deviation or exploratory analysis.
+
+**Status: ANALYSIS PLAN LOCKED 🔒**
