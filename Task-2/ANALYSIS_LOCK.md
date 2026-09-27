@@ -2,76 +2,51 @@
 
 ## Purpose
 
-This document records the formal lock of the preregistered research analysis plan before inspection of outcome patterns in the real dataset.
+This document records the formal lock of the preregistered research analysis plan before inspection of outcome patterns in the real research dataset.
 
 ## Locked Components
 
-### Research Question
+The following components of the analysis plan are considered fixed:
 
-The research question defined in `research_question.md` is locked.
-
-### Hypothesis
-
-The primary hypothesis documented in `PREREGISTRATION.md` is locked.
-
-### Population
-
-The predefined population and eligibility criteria are locked.
-
-### Exposure / Intervention
-
-The predefined exposure or intervention variable is locked.
-
-### Comparator
-
-The predefined comparator is locked.
-
-### Outcome
-
-The predefined primary outcome is locked.
-
-### Observation Window
-
-The predefined observation window is locked.
-
-### Exclusion Rules
-
-The documented inclusion and exclusion criteria are locked.
-
-### Data Transformations
-
-Only the transformations specified in the preregistration may be applied to the primary analysis.
-
-### Primary Statistical Analysis
-
-The primary statistical model and statistical test specified in the preregistration are locked.
-
-### Effect Size
-
-The predefined effect-size measure and confidence interval procedure are locked.
-
-### Missing Data
-
-The predefined missing-data handling procedure is locked.
-
-### Robustness Checks
-
-The preregistered robustness checks are locked.
-
-### Multiple Testing
-
-The documented multiple-testing strategy is locked.
+- Research question
+- Primary hypothesis
+- Population definition
+- Exposure/intervention definition
+- Comparator definition
+- Primary outcome
+- Observation window
+- Inclusion criteria
+- Exclusion criteria
+- Data transformations
+- Primary statistical analysis
+- Effect-size calculation
+- Missing-data handling
+- Robustness checks
+- Multiple-testing strategy
+- Reproducibility requirements
 
 ## Synthetic Pipeline Validation
 
-The analysis pipeline was tested using synthetic data.
+The analysis pipeline was tested using a synthetic dataset.
 
-Automated test result:
+Final automated test result:
 
 ```text
 4 passed
 
-# Task 2 — Day 5
+
+---
+
+# 2. Create `Day-05/README.md`
+
+Create:
+
+```text
+Task-2/
+└── Day-05/
+    └── README.md
+
+    # Task 2 — Day 5
 
 ## Final Validation & Analysis Lock
 
@@ -81,15 +56,14 @@ The objective of Day 5 was to perform the final reproducibility checks and forma
 
 ## Completed Work
 
-- Verified the complete project structure.
 - Ran the complete automated test suite.
 - Verified the Python research environment.
-- Checked the dependency lockfile.
-- Reviewed the preregistration document.
+- Verified the dependency lockfile.
+- Reviewed the preregistration.
 - Finalized the analysis plan.
-- Documented the analysis lock.
-- Documented procedures for handling future deviations.
-- Confirmed that synthetic data were used only for pipeline validation.
+- Created the formal analysis-lock document.
+- Documented the handling of future analysis deviations.
+- Confirmed the synthetic pipeline remains reproducible.
 
 ## Validation Results
 
