@@ -1,63 +1,49 @@
 # Task 3 — Advanced Statistical Analysis & Hypothesis Testing
 
-## Objective
+## Overview
 
-The objective of this task is to perform statistical analysis and hypothesis testing on a dataset.
+This task focuses on applying statistical hypothesis testing methods to real-world data using Python.
 
-The analysis will include:
+The Seaborn `tips` dataset was used for the analysis.
+
+## Objectives
+
+The analysis covers:
 
 - Normality testing
-- Two-sample t-test
-- Mann-Whitney U test
+- Two-group hypothesis testing
 - One-Way ANOVA
 - Two-Way ANOVA
 - Tukey HSD post-hoc analysis
 - Confidence intervals
+- Statistical decision-making
 - Data visualization
-- Statistical findings
+- Reproducible analysis
 
 ## Dataset
 
-The `tips` dataset will be used for this analysis.
+Dataset: Seaborn `tips`
 
-The dataset contains restaurant-related information such as:
+Rows: 244
 
-- Total bill
-- Tip
-- Gender
-- Smoker status
-- Day
-- Time
-- Party size
+Columns:
 
-## Tools
+- `total_bill`
+- `tip`
+- `sex`
+- `smoker`
+- `day`
+- `time`
+- `size`
 
-- Python
-- Pandas
-- NumPy
-- SciPy
-- Statsmodels
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## Statistical Methods
 
-## Analysis Plan
+### 1. Normality Tests
 
-The analysis will be completed in multiple stages:
+- Shapiro-Wilk Test
+- Kolmogorov-Smirnov Test
 
-1. Dataset inspection
-2. Normality testing
-3. Two-group hypothesis testing
-4. ANOVA analysis
-5. Post-hoc testing
-6. Results and findings
+Variable analyzed:
 
-## Significance Level
-
-The significance level for hypothesis testing will be:
-
-α = 0.05
-
-## Status
-
-Day 1 — In Progress
+```text
+total_bill
