@@ -1,0 +1,3 @@
+Test,Statistic,p_value,Alpha,Decision
+Welch Two-Sample t-Test,1.2842515757360153,0.20080519917308057,0.05,Fail to reject H₀
+Mann-Whitney U Test,7531.5,0.34133444018213255,0.05,Fail to reject H₀
