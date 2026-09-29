@@ -1,0 +1,7 @@
+group1,group2,meandiff,p-adj,lower,upper,reject
+Fri,Sat,3.2898,0.4541,-2.4799,9.0595,False
+Fri,Sun,4.2584,0.2371,-1.5856,10.1025,False
+Fri,Thur,0.5312,0.9957,-5.4434,6.5057,False
+Sat,Sun,0.9686,0.8968,-2.6088,4.546,False
+Sat,Thur,-2.7586,0.2374,-6.5455,1.0282,False
+Sun,Thur,-3.7273,0.0668,-7.6264,0.1719,False

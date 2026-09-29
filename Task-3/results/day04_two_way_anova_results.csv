@@ -1,0 +1,5 @@
+Factor,F,p_value,Alpha,Decision
+C(sex),1.0435856109274053,0.30801763704762086,0.05,Fail to reject H₀
+C(time),2.732114131181399,0.09965652069593639,0.05,Fail to reject H₀
+C(sex):C(time),0.14965338631329347,0.6992096030287077,0.05,Fail to reject H₀
+Residual,,,0.05,Fail to reject H₀
