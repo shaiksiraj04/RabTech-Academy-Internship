@@ -1,0 +1,4 @@
+Method,Number_of_Clusters,Noise_Points
+K-Means,3,0
+DBSCAN,6,147
+Hierarchical,3,0

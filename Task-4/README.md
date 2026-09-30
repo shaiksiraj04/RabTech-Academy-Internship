@@ -1,40 +1,58 @@
 # Task 4 — Dimensionality Reduction & Unsupervised Clustering
 
-## Objective
+## Overview
 
-Apply Principal Component Analysis (PCA) and unsupervised clustering techniques to discover patterns in high-dimensional numerical data.
-
-## Techniques
-
-- Data Standardization
-- Principal Component Analysis (PCA)
-- Explained Variance Ratio
-- Elbow Method
-- Silhouette Score
-- K-Means Clustering
-- DBSCAN Clustering
-- Hierarchical Clustering
-- 2D and 3D Cluster Visualization
+This task applies dimensionality reduction and unsupervised clustering techniques to identify patterns in high-dimensional numerical data.
 
 ## Dataset
 
 Scikit-learn Wine Dataset
 
-The dataset contains 13 numerical features representing chemical properties of wines.
+- 178 observations
+- 13 numerical features
+- No missing values
 
-## Expected Output
+## Techniques Applied
 
-- PCA explained variance plot
-- PCA component analysis
-- Elbow curve
-- Silhouette score analysis
-- K-Means clusters
-- DBSCAN clusters
-- Hierarchical clusters
-- 2D cluster visualization
-- 3D cluster visualization
-- Final Jupyter Notebook
+### Dimensionality Reduction
+- Feature Standardization
+- Principal Component Analysis (PCA)
+- Explained Variance Ratio
+- PCA Scree Plot
 
-## Status
+### Clustering
+- K-Means Clustering
+- Elbow Method
+- Silhouette Score
+- DBSCAN
+- Hierarchical Clustering
 
-Task 4 — In Progress
+### Visualization
+- PCA 2D cluster visualization
+- PCA 3D cluster visualization
+- Elbow plot
+- Silhouette score plot
+- DBSCAN visualization
+- Hierarchical clustering visualization
+
+## Results
+
+PCA was used to reduce the dimensionality of the standardized dataset while retaining at least 95% of the variance.
+
+K-Means cluster selection was evaluated using both the Elbow Method and Silhouette Score.
+
+DBSCAN was used to identify density-based clusters and potential noise points.
+
+Hierarchical clustering was performed using Agglomerative Clustering with Ward linkage.
+
+## Project Structure
+
+```text
+Task-4/
+├── Day-01/
+├── notebooks/
+│   └── Task_4_PCA_Clustering.ipynb
+├── plots/
+├── results/
+├── README.md
+└── requirements.txt
