@@ -2,44 +2,57 @@
 
 ## Objective
 
-Build an end-to-end time-series forecasting pipeline using daily demand data.
+Perform time-series analysis and forecasting on daily demand data using statistical forecasting techniques.
 
 ## Dataset
 
-Daily demand time-series dataset provided by RabTech Academy.
+**File:** `daily-demand-series.csv`
 
-Columns:
+The dataset contains:
 
-- `date`
-- `demand`
-- `marketing_event`
-- `holiday`
+- `date` — Daily observation date
+- `demand` — Daily demand value
+- `marketing_event` — Marketing event indicator
+- `holiday` — Holiday indicator
 
-## Analysis
+## Analysis Performed
 
-The task includes:
+### 1. Data Exploration
+- Loaded and inspected the dataset
+- Converted the date column to datetime format
+- Checked chronological ordering
+- Examined descriptive statistics
+- Checked for missing values
 
-- Time-series exploration
-- Trend, seasonality, and residual decomposition
-- Augmented Dickey-Fuller (ADF) stationarity test
-- Differencing when required
-- ARIMA/SARIMA forecasting
-- Model selection
-- MAPE and RMSE evaluation
-- 30-day demand forecasting
-- Forecast visualization
+### 2. Time-Series Decomposition
+Performed additive decomposition using a **7-day seasonal period** to analyze:
 
-## Tools
+- Observed series
+- Trend
+- Seasonality
+- Residuals
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Statsmodels
-- Scikit-learn
-- Jupyter Notebook
+### 3. Stationarity Testing
+Applied the **Augmented Dickey-Fuller (ADF) test** to:
 
-## Status
+- Original demand series
+- First-order differenced demand series
 
-Task 5 — In Progress
+### 4. ARIMA Forecasting
+Evaluated multiple ARIMA configurations:
+
+- ARIMA(0,1,0)
+- ARIMA(0,1,1)
+- ARIMA(1,1,0)
+- ARIMA(1,1,1)
+- ARIMA(2,1,0)
+- ARIMA(2,1,1)
+
+The best model was selected using validation **RMSE**.
+
+### 5. SARIMA Forecasting
+A SARIMA model with weekly seasonality was evaluated:
+
+```text
+Order: (1,1,0)
+Seasonal Order: (1,0,0,7)
