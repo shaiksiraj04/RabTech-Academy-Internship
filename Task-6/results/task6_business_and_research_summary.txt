@@ -1,0 +1,16 @@
+TASK 6 — BUSINESS & RESEARCH SUMMARY
+============================================================
+
+BUSINESS IMPLICATIONS
+------------------------------
+Demand forecasting can support inventory and stock planning, workforce allocation, procurement, marketing planning, capacity management, and short-term operational scheduling.
+
+RESEARCH LIMITATIONS
+------------------------------
+The study uses a relatively small dataset and a limited number of external variables. The forecast covers 30 days and the models were not deployed in a production environment. Therefore, the results should be considered exploratory.
+
+RESEARCH CONCLUSION
+------------------------------
+The study demonstrated a complete data science workflow for daily demand forecasting using statistical and machine learning approaches. Models were evaluated using MAE, RMSE, and MAPE, with RMSE used as the primary selection criterion. The selected model was used to generate a 30-day future demand forecast.
+
+Future research should use larger datasets and additional business-specific variables to improve model reliability and generalizability.

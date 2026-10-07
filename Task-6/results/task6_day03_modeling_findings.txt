@@ -1,0 +1,19 @@
+TASK 6 — DAY 3 MODELING FINDINGS
+==================================================
+
+Best Overall Model: SARIMA
+MAE: 0.8887
+RMSE: 0.9622
+MAPE: 0.58%
+
+Model Ranking by RMSE:
+            Model       MAE      RMSE  MAPE (%)
+           SARIMA  0.888728  0.962242  0.577406
+Gradient Boosting  2.246296  3.165973  1.374970
+    Random Forest  3.578250  5.466915  2.149341
+   Naive Baseline 12.200000 13.076697  7.767561
+   Selected ARIMA 10.443963 14.485659  6.346822
+
+Interpretation:
+The SARIMA achieved the lowest test-set RMSE among the evaluated models.
+The results should be interpreted cautiously because the dataset contains only a small number of observations.

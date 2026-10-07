@@ -1,0 +1,6 @@
+Model,MAE,RMSE,MAPE (%)
+SARIMA,0.8887,0.9622,0.58
+Gradient Boosting,2.2463,3.166,1.37
+Random Forest,3.5783,5.4669,2.15
+Naive Baseline,12.2,13.0767,7.77
+Selected ARIMA,10.444,14.4857,6.35
